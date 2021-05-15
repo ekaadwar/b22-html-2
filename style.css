@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.navbar {
+  background: linear-gradient(#008000, #00be00);
+  font-family: arial;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.navbar ul li a:hover {
+  background-color: #008000;
+}
