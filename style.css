@@ -1,5 +1,12 @@
 body {
   margin: 0;
+  font-family: arial;
+}
+
+section {
+  height: 600px;
+  /* background-color: grey; */
+  display: grid;
 }
 
 .container {
@@ -7,9 +14,21 @@ body {
   width: 1000px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.mark {
+  background-color: #95b14f;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Navbar */
+
 .navbar {
   background: linear-gradient(#008000, #00be00);
-  font-family: arial;
   text-transform: uppercase;
   line-height: 50px;
 }
@@ -35,3 +54,61 @@ body {
 .navbar ul li a:hover {
   background-color: #008000;
 }
+
+/* Akhir Navbar */
+
+/* section content */
+.header h1 {
+  color: #3d5500;
+}
+
+.content p .mark {
+  font-size: 12px;
+}
+
+.row {
+  display: grid;
+}
+
+.row .col p {
+  margin: 0 15px 15px 15px;
+}
+
+.col {
+  display: inline-block;
+}
+
+.content .row {
+  grid-template-areas: "image articles articles";
+}
+
+.col.image {
+  grid-area: image;
+}
+
+.col.image img {
+  width: 100%;
+}
+
+.col.articles {
+  grid-area: articles;
+}
+
+.articlesBox {
+  height: 150px;
+}
+
+.articlesBox .more {
+  text-align: right;
+}
+
+.articlesBox .more a {
+  text-decoration: none;
+  color: crimson;
+}
+
+.articlesBox .more a:hover {
+  color: red;
+}
+
+/* Akhir section content */
