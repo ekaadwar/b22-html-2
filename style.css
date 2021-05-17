@@ -7,6 +7,7 @@ section {
   height: 600px;
   /* background-color: grey; */
   display: grid;
+  padding-top: 50px;
 }
 
 .container {
@@ -61,12 +62,12 @@ section {
 
 /* Akhir Navbar */
 
-/* section content */
+/* section home */
 .header h1 {
   color: #3d5500;
 }
 
-.content p .mark {
+section p .mark {
   font-size: 12px;
 }
 
@@ -82,7 +83,7 @@ section {
   display: inline-block;
 }
 
-.content .row {
+section .row {
   grid-template-areas: "image articles articles";
 }
 
@@ -115,4 +116,4 @@ section {
   color: red;
 }
 
-/* Akhir section content */
+/* Akhir section home */
